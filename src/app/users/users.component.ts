@@ -42,7 +42,7 @@ export class UsersComponent implements OnInit {
     });
   }
 
-  loadFromHttp() {
+  submit() {
     this.form.patchValue({
       age: 26,
       firstName: 'Goutam',
